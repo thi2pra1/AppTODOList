@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/todo_timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="@dimen/layout_margin"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/list_item_fontsize" />
+
+    <TextView
+        android:id="@+id/todo_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/todo_timestamp"
+        android:layout_margin="@dimen/layout_margin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingStart="@dimen/layout_margin"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/list_item_fontsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:background="@color/colorPrimaryBackground"></View>
+
+</RelativeLayout>

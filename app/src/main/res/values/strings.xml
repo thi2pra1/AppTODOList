@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Tarefas do Dia-a-Dia</string>
+    <string name="dialog_new_entry_title">Nova Tarefa</string>
+    <string name="dialog_edit_entry_title">Editar Tarefa</string>
+    <string name="entry_hint_text">Entre com sua Tarefa aqui</string>
+</resources>
